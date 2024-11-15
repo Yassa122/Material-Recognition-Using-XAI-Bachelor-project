@@ -6,7 +6,7 @@ from rdkit.Chem import Draw
 
 # Load the pre-trained model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained("seyonec/ChemBERTa-zinc-base-v1")
-model = AutoModelForSequenceClassification.from_pretrained("fine-tuned-chemberta")
+model = AutoModelForSequenceClassification.from_pretrained("fine_tuned_chemberta")
 model.eval()
 
 # Load the data with predictions

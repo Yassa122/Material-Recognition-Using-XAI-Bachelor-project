@@ -142,7 +142,7 @@ def main():
     trainer.train()
 
     # Save the fine-tuned model
-    trainer.save_model("fine-tuned-chemberta")
+    trainer.save_model("fine_tuned_chemberta")
 
     # Load the dataset for prediction (only SMILES strings)
     predict_file = "test.csv"  # Prediction dataset path
